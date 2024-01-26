@@ -1,5 +1,6 @@
 export type MovieType = {
-    "Title": string
+    "Title": string,
+    "Poster": string,
     "Year": number,
     "Rated": string,
     "Released": string,
@@ -12,5 +13,6 @@ export type MovieType = {
     "Language": string,
     "Country": string,
     "Awards": string,
-    "Poster": string,
+    "imdbID": string,
+    
 }

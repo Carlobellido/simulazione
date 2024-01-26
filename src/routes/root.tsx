@@ -1,20 +1,29 @@
 import {
   createBrowserRouter,
 } from "react-router-dom";
+import Home, { loaderRoot } from "../Pages/Home";
 import ErrorPage from "../error-page";
-import ListMovies from "../componenti/ListMovies";
+
+
+//loader per la pagina home
+
 
 
 
 export const router = createBrowserRouter([
+
+
   {
-    path:"/",
-    element: <ListMovies/>,
-    errorElement: <ErrorPage/>
+    path: "/Home",
+    element: <Home />,
+    loader: loaderRoot,
+    errorElement: <ErrorPage />
   },
+  
+
+
 
 ]);
 
-  
 
-  
+
