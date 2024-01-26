@@ -20,7 +20,7 @@ export  async function getMovies(): Promise<any> {
 export  async function getDetailMovie(id: string): Promise<any> {
   try {
     const response = await axios.get(`${baseURL}?apikey=${key}&i=${id}`);
-    console.log(response);
+    return response.data.Search;
   } catch (error) {
     console.error(error);
   }

@@ -11,6 +11,7 @@ export async function loaderRoot() {
 }
 
 
+
 export const Home = () => {
 
   const FilmFromApi = useLoaderData() as MovieType[];

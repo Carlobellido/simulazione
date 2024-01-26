@@ -14,7 +14,7 @@ const navBar = () => {
                 />
                 </Link>
                 <Center>
-                <Heading color="white" textAlign="center">えいが </Heading>
+                <Heading color="white" textAlign="center">Netflix </Heading>
                 </Center>
                 </HStack >
                 
